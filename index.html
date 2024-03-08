@@ -60,6 +60,21 @@
       background-color: #4C12A1;
       color: white;
     }
+    .button-container {
+      margin-top: 20px;
+    }
+    .button {
+      background-color: #4C12A1;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -114,23 +129,16 @@
         <td>Srinivas, Prabhakar, Hari Prasad, Venkata Siva, Gopal Achari</td>
         <td>9848978306</td>
       </tr>
-     
     </tbody>
   </table>
 
-  <!-- Financial Information Section -->
-  <h2>Financial Information</h2>
-  <p>Here you can include financial details such as budgets, expenses, income, etc.</p>
-  <!-- Add financial details here -->
-  <p><a href="payment_details.html" class="link">View Payment Details</a></p>
+  <div class="button-container">
+    <button class="button" onclick="location.href='lane_representatives.html'">View Lane Representatives</button>
+    <button class="button" onclick="location.href='colony_members.html'">View Colony Members</button>
+    <button class="button" onclick="location.href='financials.html'">View Financials</button>
+  </div>
 
 </div>
-
-
-<!-- <footer>
-  <p>&copy; 2024 Bramaramba Mallikarjuna Nagar Colony. All rights reserved.</p>
-
-</footer> -->
 
 </body>
 </html>
