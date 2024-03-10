@@ -68,6 +68,22 @@ const laneData = [
           { sno: 4, name: "shiva" }
         ]
       },
+    {
+        lane: "Lane 6",
+        data: [
+          { sno: 1, name: "Naveen" },
+          { sno: 2, name: "Srinivasulu" },
+          { sno: 3, name: "Rohith" },
+          { sno: 4, name: "Venu" },
+          { sno: 5, name: "Krishna" },
+          { sno: 6, name: "Prashanth" },
+          { sno: 7, name: "Ashok" },
+          { sno: 8, name: "shiva" },
+          { sno: 9, name: "veerakumar" },
+          { sno: 10, name: "Praveen" },
+          { sno: 11, name: "Harsha" }
+        ]
+      },
       {
         lane: "Lane 7",
         data: [
