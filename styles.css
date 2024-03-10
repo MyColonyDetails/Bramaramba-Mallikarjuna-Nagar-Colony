@@ -1,0 +1,39 @@
+/* Updated styles.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 6px; /* Adjusted padding for smaller column width */
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4C12A1; /* Background color for table headers */
+    color: #FFF; /* Text color for table headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Responsive styles for mobile resolutions */
+@media (max-width: 768px) {
+    table {
+        font-size: 12px; /* Reduce font size for smaller screens */
+    }
+    th, td {
+        padding: 4px; /* Further reduced padding for smaller column width */
+    }
+    caption {
+        font-size: 1em; /* Adjust caption font size for smaller screens */
+    }
+}
