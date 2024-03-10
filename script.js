@@ -152,6 +152,15 @@ const laneData = [
         ]
       }
     ];
+    
+    // Function to calculate total members
+function getTotalMembers(data) {
+    let totalMembers = 0;
+    data.forEach(lane => {
+        totalMembers += lane.data.length;
+    });
+    return totalMembers;
+}
   
   // Function to generate the table dynamically
   function generateTable(data) {
@@ -181,6 +190,11 @@ const laneData = [
   
       container.appendChild(table);
     });
+        // Calculate total members
+        const totalMembers = getTotalMembers(data);
+        // Display total members
+        const totalMembersElement = document.getElementById('totalMembers');
+        totalMembersElement.textContent = `Total members: ${totalMembers}`;
   }
   
   // Call the function to generate the table
