@@ -94,11 +94,18 @@
 
     /* Media Queries */
     @media only screen and (max-width: 600px) {
+       .header img {
+    max-width: 100px; /* Set maximum width for the image */
+    top: 0%; /* Align the top edge of the image with the center of the header */
+    left: 0%; /* Align the left edge of the image with the center of the header */
+
+  }
       .container {
         width: 90%; /* Adjust container width for smaller screens */
       }
       h1 {
         font-size: 1.5rem; /* Adjust font size for smaller screens */
+        margin-top: 50px;
       }
       p {
         font-size: 0.8rem; /* Adjust font size for smaller screens */
