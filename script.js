@@ -53,10 +53,10 @@ const laneData = [
         { sno: 3, name: "Shiva" },
         { sno: 4, name: "Latheef" },
         { sno: 5, name: "Ushakiran" },
-        { sno: 6, name: "Anil", contact: "9963122139" }, // Updated contact
-        { sno: 7, name: "Vishnu", contact: "9912687998" }, // Updated contact
+        { sno: 6, name: "Anil", contact: "9963122139" },
+        { sno: 7, name: "Vishnu", contact: "9912687998" },
         { sno: 8, name: "Raju" },
-        { sno: 9, name: "Venkata Siva", contact: "9148871181" } // Updated contact
+        { sno: 9, name: "Venkata Siva", contact: "9148871181" }
         { sno: 10, name: "SaiKiran" }
       ]
       },
