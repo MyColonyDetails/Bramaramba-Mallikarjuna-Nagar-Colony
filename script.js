@@ -48,16 +48,16 @@ const laneData = [
       {
         lane: "Lane 4",
         data: [
-        { sno: 1, name: "Srikanth" },
-        { sno: 2, name: "Naresh" },
-        { sno: 3, name: "Shiva" },
-        { sno: 4, name: "Latheef" },
-        { sno: 5, name: "Ushakiran" },
+        { sno: 1, name: "Srikanth", contact : "" },
+        { sno: 2, name: "Naresh", contact : "" },
+        { sno: 3, name: "Shiva", contact : "" },
+        { sno: 4, name: "Latheef", contact : "" },
+        { sno: 5, name: "Ushakiran", contact : "" },
         { sno: 6, name: "Anil", contact : "9963122139" },
         { sno: 7, name: "Vishnu", contact : "9912687998" },
-        { sno: 8, name: "Raju" },
+        { sno: 8, name: "Raju", contact : "" },
         { sno: 9, name: "Venkata Siva", contact : "9148871181" },
-        { sno: 10, name: "SaiKiran" }
+        { sno: 10, name: "SaiKiran", contact : "" }
       ]
       },
       {
