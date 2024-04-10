@@ -3,29 +3,30 @@ const laneData = [
     {
       lane: "Lane 1",
       data: [
-        { sno: 1, name: "Kiran chenumalla" },
-        { sno: 2, name: "Pallerla Sridhar Reddy" },
-        { sno: 3, name: "Mounika ravipati" },
-        { sno: 4, name: "G Nagendra Kumar" },
-        { sno: 5, name: "Kasu Ranadheer Raju" },
-        { sno: 6, name: "Gangadhara Srinivas" },
-        { sno: 7, name: "Chinna Reddy" },
-        { sno: 8, name: "Hari" },
-        { sno: 9, name: "Shiva" }
+        { sno: 1, name: "Kiran chenumalla", contact: "7981453146" },
+        { sno: 2, name: "Pallerla Sridhar Reddy", contact: "9010690116" },
+        { sno: 3, name: "Mounika ravipati", contact: "8019570485" },
+        { sno: 4, name: "G Nagendra Kumar", contact: "7416337129" },
+        { sno: 5, name: "Kasu Ranadheer Raju", contact: "7780280768" },
+        { sno: 6, name: "Gangadhara Srinivas", contact: "9160616612" },
+        { sno: 7, name: "Chinna Reddy", contact: "" },
+        { sno: 8, name: "Hari", contact: "" },
+        { sno: 9, name: "Shiva", contact: "" }
       ]
     },
     {
       lane: "Lane 2",
       data: [
-        { sno: 1, name: "Pavan Kumar Pilli" },
-        { sno: 2, name: "Mancharla Amarender Reddy" },
-        { sno: 3, name: "K Sairam" },
-        { sno: 4, name: "Santhosh Katukam" },
-        { sno: 5, name: "Gorre Kranthi Kumar" },
-        { sno: 6, name: "Santhosam Prabhakar Reddy" },
-        { sno: 7, name: "B Mahesh Babu" },
-        { sno: 8, name: "Shiva Ram" },
-        { sno: 9, name: "Naresh" }
+        { sno: 1, name: "Pavan Kumar Pilli", contact: "8125740622" },
+        { sno: 2, name: "Mancharla Amarender Reddy", contact: "7416479972" },
+        { sno: 3, name: "K Sairam", contact: "9700065025" },
+        { sno: 4, name: "Santhosh Katukam", contact: "9591624130" },
+        { sno: 5, name: "Gorre Kranthi Kumar", contact: "7306678287" },
+        { sno: 6, name: "Santhosam Prabhakar Reddy", contact: "9848978306" },
+        { sno: 7, name: "B Mahesh Babu", contact: "9666279426" },
+        { sno: 8, name: "Randeep", contact: "8985097207" },
+        { sno: 9, name: "Shiva Ram", contact: "7729957080" },
+        { sno: 10, name: "Naresh", contact: "8121195572" }
       ]
     },
     {
