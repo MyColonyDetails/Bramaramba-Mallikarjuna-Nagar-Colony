@@ -32,17 +32,17 @@ const laneData = [
     {
         lane: "Lane 3",
         data:  [
-        { sno: 1, name: "Hari Prasad", contact: "9849985311" },
-        { sno: 2, name: "Ranjith Kumar", contact: "9705007300" },
-        { sno: 3, name: "Sunil", contact: "7760596661" },
-        { sno: 4, name: "Jeevan", contact: "" },
-        { sno: 5, name: "Vamshi", contact: "7794942011" },
-        { sno: 6, name: "Gopal", contact: "9916172427" },
-        { sno: 7, name: "Kiran", contact: "" },
-        { sno: 8, name: "Uday", contact: "" },
-        { sno: 9, name: "Satish", contact: "" },
-        { sno: 10, name: "Santosh", contact: "9561421983" }, 
-        { sno: 11, name: "Praveen", contact: "9849477307" }
+        { sno: 1, name: "Hari Prasad", contact : "9849985311" },
+        { sno: 2, name: "Ranjith Kumar", contact : "9705007300" },
+        { sno: 3, name: "Sunil", contact : "7760596661" },
+        { sno: 4, name: "Jeevan", contact : "" },
+        { sno: 5, name: "Vamshi", contact : "7794942011" },
+        { sno: 6, name: "Gopal", contact : "9916172427" },
+        { sno: 7, name: "Kiran", contact : "" },
+        { sno: 8, name: "Uday", contact : "" },
+        { sno: 9, name: "Satish", contact : "" },
+        { sno: 10, name: "Santosh", contact : "9561421983" }, 
+        { sno: 11, name: "Praveen", contact : "9849477307" }
       ]
       },
       {
@@ -53,10 +53,10 @@ const laneData = [
         { sno: 3, name: "Shiva" },
         { sno: 4, name: "Latheef" },
         { sno: 5, name: "Ushakiran" },
-        { sno: 6, name: "Anil", contact: "9963122139" },
-        { sno: 7, name: "Vishnu", contact: "9912687998" },
+        { sno: 6, name: "Anil", contact : "9963122139" },
+        { sno: 7, name: "Vishnu", contact : "9912687998" },
         { sno: 8, name: "Raju" },
-        { sno: 9, name: "Venkata Siva", contact: "9148871181" }
+        { sno: 9, name: "Venkata Siva", contact : "9148871181" }
         { sno: 10, name: "SaiKiran" }
       ]
       },
